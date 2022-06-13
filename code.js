@@ -7,9 +7,10 @@ function helloWorld() {
 
 
 const sayHello = function(){
-
+    return ""
 
 }
 function foo() {
     return 2;
 }
+
