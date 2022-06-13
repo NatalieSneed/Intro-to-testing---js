@@ -27,11 +27,15 @@ describe('sayHello', function() {
     it('should be a defined function', function () {
         expect(typeof sayHello).toBe('function');
     });
-})
-
-describe('sayHello', function() {
     it('should return a string when called', function () {
         expect(typeof sayHello()).toBe('string');
     });
 
+    it("Pat", function() {
+        expect(sayHello("Pat")).toBe("Hello, Pat!");
+    });
 })
+describe('isEven' , function() {
+    it('returns true when called with', function ()
+        expect()
+

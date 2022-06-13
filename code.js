@@ -6,11 +6,19 @@ function helloWorld() {
 
 
 
-const sayHello = function(){
-    return ""
+// const sayHello = function(input) {
+//     return "Hello, " + input + "!";
+// }
 
+
+function sayHello(input) {
+    return "Hello, Pat!";
 }
+
+
 function foo() {
     return 2;
 }
+
+
 
